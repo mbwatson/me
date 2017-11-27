@@ -57,7 +57,10 @@ a:hover {
 		color: $text-lighter;
 		margin-left: 3em;
 		cursor: pointer;
-		transition: color 0.5s ease;
+		-webkit-transition: color 0.5s ease;
+		-moz-transition: color 0.5s ease;
+		-o-transition: color 0.5s ease;
+	  transition: color 0.5s ease;
 	}
 	.up-arrow:before { content: "▲"; }
 	.down-arrow:before { content: "▼"; }
@@ -65,6 +68,9 @@ a:hover {
 	.read-less:before { content: "Read less"; }
 	#details-toggler:hover {
 		color: $text-light;
+		-webkit-transition: color 0.5s ease;
+		-moz-transition: color 0.5s ease;
+		-o-transition: color 0.5s ease;
 		transition: color 0.5s ease;
 	}
 }
@@ -95,6 +101,9 @@ a:hover {
 		color: $text-light;
 		padding: 0 1em;
 		margin-right: 300px;
+		-webkit-transition: margin-right 2s ease-out, color 0.25s ease;
+		-moz-transition: margin-right 2s ease-out, color 0.25s ease;
+		-o-transition: margin-right 2s ease-out, color 0.25s ease;
 		transition: margin-right 2s ease-out, color 0.25s ease;
   }
   .section-aside {
@@ -105,6 +114,9 @@ a:hover {
   		padding-top: 1em;
   		font-size: 80%;
 			margin: 0 100% 0 -100%;
+			-webkit-transition: margin 2s ease-out, opacity 0.75s ease;
+			-moz-transition: margin 2s ease-out, opacity 0.75s ease;
+			-o-transition: margin 2s ease-out, opacity 0.75s ease;
 			transition: margin 2s ease-out, opacity 0.75s ease;
   	}
   }
@@ -120,10 +132,16 @@ a:hover {
 				border: 1px solid #ddd;
 				width: 100%;
 				opacity: 0.5;
+				-webkit-transition: opacity 1s ease;
+				-moz-transition: opacity 1s ease;
+				-o-transition: opacity 1s ease;
 				transition: opacity 1s ease;
 			}
 		  img:hover {
 				opacity: 1;
+				-webkit-transition: opacity 0.25s ease;
+				-moz-transition: opacity 0.25s ease;
+				-o-transition: opacity 0.25s ease;
 				transition: opacity 0.25s ease;
 			}
 			.project-description {
@@ -135,6 +153,9 @@ a:hover {
 .projects-section:hover {
 	.section-name {
 		margin-right: 0;
+		-webkit-transition: margin-right 0.25s ease, color 0.5s ease;
+		-moz-transition: margin-right 0.25s ease, color 0.5s ease;
+		-o-transition: margin-right 0.25s ease, color 0.5s ease;
 		transition: margin-right 0.25s ease, color 0.5s ease;
 		color: $text-darkest;
 	}
@@ -143,6 +164,9 @@ a:hover {
 		font-size: 80%;
 		opacity: 1.0;
 		margin: 0;
+		-webkit-transition: margin 0.5s ease, opacity 0.5s ease;
+		-moz-transition: margin 0.5s ease, opacity 0.5s ease;
+		-o-transition: margin 0.5s ease, opacity 0.5s ease;
 		transition: margin 0.5s ease, opacity 0.5s ease;
-}
+	}
 }
