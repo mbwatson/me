@@ -61,6 +61,7 @@ a:hover {
 
 .dev-tool {
   border: 1px solid #ccd;
+  color: #899;
   line-height: 2em;
   padding: 2px 5px;
   white-space: nowrap; }
