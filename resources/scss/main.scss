@@ -96,9 +96,11 @@ a:hover {
 	display: grid;
   grid-template-columns: 150px 1fr;
   .section-aside {
+  	// border: 1px solid #eee;
   	text-align: right;
 	  .section-name {
 	  	// border: 1px solid #eee;
+			white-space: nowrap;
 			padding: 0 1em;
 	  	display: inline;
 			color: $text-light;

@@ -78,6 +78,7 @@ a:hover {
   .projects-section .section-aside {
     text-align: right; }
     .projects-section .section-aside .section-name {
+      white-space: nowrap;
       padding: 0 1em;
       display: inline;
       color: #899;
