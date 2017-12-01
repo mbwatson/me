@@ -29,13 +29,13 @@
 			Much of my spare time is occupied by programming and graphic design.
 			In particular, my interests lie in web development.
 			This page serves as a launchpad to some of my more recent projects, and some notable past projects.
-			Recently, I've been wasting time playing around with <a href="http://www.p5js.org/" target="_blank">p5.js</a>.
+			p5.js<
 			<br /><br />
 			Please see some of my projects below.
 			I am in the process of finding appropriate ways to make the non-linked projects accessible,
 			particularly the print projects, which includes everything from posters to record covers.
 <!-- 			<br/><br/>
-			View my <a href="resume.html" target="_blank">resume</a>.
+			resume<
  -->		</div>
 	</div>
 	<div class="projects-title">Projects</div>
@@ -53,37 +53,37 @@
 				</div>
 			</div>
 			<div class="section-list">
-				<div class="project-card">
-					<a href="http://fourum.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/fourum.png" /></a>
+				<div class="project-card" onClick="openPopup('fourum');">
+					<img src="resources/images/thumbnails/fourum.png" />
 				</div>
-				<div class="project-card">
-					<a href="http://apcalc.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/apcalc.png" /></a>
+				<div class="project-card" onClick="openPopup('apcalc');">
+					<img src="resources/images/thumbnails/apcalc.png" />
 				</div>
-				<div class="project-card">
-					<a href="http://www.bettiehair.com/" target="_blank"><img src="resources/images/thumbnails/bettie.png" /></a>
+				<div class="project-card" onClick="openPopup('bettie');">
+					<img src="resources/images/thumbnails/bettie.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://github.com/mbwatson/php-captcha" target="_blank"><img src="resources/images/thumbnails/captcha.png" /></a>
+				<div class="project-card" onClick="openPopup('captcha');">
+					<img src="resources/images/thumbnails/captcha.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/spacejs" target="_blank"><img src="resources/images/thumbnails/space.png" /></a>
+				<div class="project-card" onClick="openPopup('space');">
+					<img src="resources/images/thumbnails/space.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/topongogy" target="_blank"><img src="resources/images/thumbnails/topongogy.png" /></a>
+				<div class="project-card" onClick="openPopup('topongogy');">
+					<img src="resources/images/thumbnails/topongogy.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/life/hexlife/index.html" target="_blank"><img src="resources/images/thumbnails/hexlife.png" /></a>
+				<div class="project-card" onClick="openPopup('hexlife');">
+					<img src="resources/images/thumbnails/hexlife.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/life/conways/index.html" target="_blank"><img src="resources/images/thumbnails/life.png" /></a>
+				<div class="project-card" onClick="openPopup('life');">
+					<img src="resources/images/thumbnails/life.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/minesweeper" target="_blank"><img src="resources/images/thumbnails/minesweeper.png" /></a>
+				<div class="project-card" onClick="openPopup('minesweeper');">
+					<img src="resources/images/thumbnails/minesweeper.png" />
 				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/nibbles" target="_blank"><img src="resources/images/thumbnails/nibbles.png" /></a>
+				<div class="project-card" onClick="openPopup('nibbles');">
+					<img src="resources/images/thumbnails/nibbles.png" />
 				</div>
-				<div class="project-card">
+				<div class="project-card" onClick="openPopup('growanddrop');">
 					<img src="resources/images/thumbnails/growanddrop.png" />
 				</div>
 			</div>
@@ -102,13 +102,13 @@
 			</div>
 			<div class="section-list">
 				<div class="project-card">
-					<a href="https://github.com/mbwatson/canvas" target="_blank"><img src="resources/images/thumbnails/canvas.png" /></a>
+					<img src="resources/images/thumbnails/canvas.png" />
 				</div>
 				<div class="project-card">
-					<a href="https://github.com/mbwatson/space_blaster" target="_blank"><img src="resources/images/thumbnails/spaceblaster.png" /></a>
+					<img src="resources/images/thumbnails/spaceblaster.png" />
 				</div>
 				<div class="project-card">
-					<a href="https://github.com/mbwatson/R-map-maker" target="_blank"><img src="resources/images/thumbnails/map.png" /></a>
+					<img src="resources/images/thumbnails/map.png" />
 				</div>
 				<div class="project-card">
 					<img src="resources/images/thumbnails/b_3.png" />
@@ -135,10 +135,10 @@
 			</div>
 			<div class="section-list">
 				<div class="project-card">
-					<a href="https://www.hackster.io/mwatson/pi-game-6cb2b4" target="_blank"><img src="resources/images/thumbnails/esp8266pigame.png" /></a>
+					<img src="resources/images/thumbnails/esp8266pigame.png" />
 				</div>
 				<div class="project-card">
-					<a href="https://www.hackster.io/mwatson/world-s-smallest-pong-a45ea9" target="_blank"><img src="resources/images/thumbnails/esp8266pong.png" /></a>
+					<img src="resources/images/thumbnails/esp8266pong.png" />
 				</div>
 			</div>
 		</div>
@@ -178,12 +178,85 @@
 				</div>
 			</div>
 		</div>
-		
 	</div>
+</div>
+
+<div id="overlay"></div>
+<div id="modal">
+	<div class="close">&times;</div>
+	Modal
+</div>
+
+<!-- Project Details -->
+<div class="project-details fourum">
+	<h2>Fourum</h2>
+	<img src="resources/images/fourum.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details apcalc">
+	<h2>Calculus Community</h2>
+	<img src="resources/images/apcalc.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details bettie">
+	<h2>Bettie</h2>
+	<img src="resources/images/bettie.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details captcha">
+	<h2>Captcha</h2>
+	<img src="resources/images/captcha.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details space">
+	<h2>Space</h2>
+	<img src="resources/images/space.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details topongogy">
+	<h2>Topological Pong</h2>
+	<img src="resources/images/topongogy.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details hexlife">
+	<h2>Hexagonal Game of Life</h2>
+	<img src="resources/images/hexlife.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details life">
+	<h2>Conway's Game of Life</h2>
+	<img src="resources/images/life.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details minesweeper">
+	<h2>Minesweeper</h2>
+	<img src="resources/images/minesweeper.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details nibbles">
+	<h2>Nibbles</h2>
+	<img src="resources/images/nibbles.png" />
+	<p>with some words</p>
+</div>
+
+<div class="project-details growanddrop">
+	<h2>Grow and Drop</h2>
+	<img src="resources/images/growanddrop.png" />
+	<p>with some words</p>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
 <script src="resources/js/toggleDetails.js"></script>
+<script src="resources/js/modal.js"></script>
 
 </body>
 </html>
