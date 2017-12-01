@@ -88,9 +88,12 @@ a:hover {
 }
 .projects-title {
 	margin: 1em 0;
-	padding: 1em 0;
 	color: $text-darkest;
-	border-bottom: 1px solid $border;
+}
+.projects-all {
+	border: 1px solid $border;
+	border-width: 1px 0;
+	padding: 1em 0;
 }
 .projects-section {
 	display: grid;
