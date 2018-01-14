@@ -4,6 +4,7 @@
 	<title>Matt Watson</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/drawers.css" />
 </head>
 <style type="text/css">
 	.mouseAcceleration {
@@ -14,197 +15,240 @@
 </style>
 <body>
 
-<div id="wrapper" class="wrapper">
-	<div class="title">
-		<div class="first-name">Matt</div>
-		<div class="last-name">Watson</div>
+<div id="wrapper">
+	<main>
+		<div class="title">
+			<div class="first-name">Matt</div>
+			<div class="last-name">Watson</div>
+		</div>
+		<div class="description">
+			<i>Mathematics instructor by day, programmer by night</i>
+			<span id="details-toggler" class="down-arrow">
+				<span id="details-read" class="read-more"></span>
+			</span>
+			
+			<div id="details">
+				Much of my spare time is occupied by programming and design.
+				Though my experiences run the gamit of the full stack,
+				I find myself getting lost in web development and, specifically, UX design.
+				This page serves as a launchpad to some of my more recent projects,
+				and some notable past projects.
+				Recently, I've been wasting time playing around with <a href="http://www.p5js.org/" target="_blank">p5.js</a>
+				while I consider its use as a platform for teaching computer science.
+				<br /><br />
+				Please see some of my projects below.
+				Some are practical, some are to learn something new, and some are just for fun.
+				I am in the process of finding appropriate ways to make the non-linked projects accessible,
+				particularly the print projects, which includes everything from posters to record covers.
+		</div>
+		</div>
+		<div class="projects-title">Projects</div>
+		<div class="projects-all">
+			<div class="projects-section">
+				<div class="section-aside">
+					<div class="section-name">Web</div>
+					<div class="tools">
+						<span class="dev-tool">HTML</span>
+						<span class="dev-tool">CSS (SASS &amp; LESS)</span>
+						<span class="dev-tool">JavaScript</span>
+						<span class="dev-tool">jQuery</span>
+						<span class="dev-tool">jQuery-UI</span>
+						<span class="dev-tool">p5.js</span>
+						<span class="dev-tool">PHP</span>
+						<span class="dev-tool">Laravel</span>
+						<span class="dev-tool">MySQL</span>
+					</div>
+				</div>
+				<div class="section-list">
+					<div class="project-card">
+						<a href="http://mbwatson.github.io/jsTimer" target="_blank"><img src="resources/images/thumbnails/timer.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://mbwatson.github.io/lista" target="_blank"><img src="resources/images/thumbnails/lista.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://mbwatson.github.io/jsClock" target="_blank"><img src="resources/images/thumbnails/clock.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://mbwatson.github.io/colorSchemeBuilder" target="_blank"><img src="resources/images/thumbnails/colors.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://fourum.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/fourum.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://mbwatson.github.io/keycodes" target="_blank"><img src="resources/images/thumbnails/keycodes.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://apcalc.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/apcalc.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="http://www.bettiehair.com/" target="_blank"><img src="resources/images/thumbnails/bettie.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://github.com/mbwatson/php-captcha" target="_blank"><img src="resources/images/thumbnails/captcha.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/spacejs" target="_blank"><img src="resources/images/thumbnails/space.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/topongogy" target="_blank"><img src="resources/images/thumbnails/topongogy.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/life/hexlife/index.html" target="_blank"><img src="resources/images/thumbnails/hexlife.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/life/conways/index.html" target="_blank"><img src="resources/images/thumbnails/life.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/minesweeper" target="_blank"><img src="resources/images/thumbnails/minesweeper.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://mbwatson.github.io/nibbles" target="_blank"><img src="resources/images/thumbnails/nibbles.png" /></a>
+					</div>
+					<div class="project-card">
+						<img src="resources/images/thumbnails/growanddrop.png" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="projects-section">
+				<div class="section-aside">
+					<div class="section-name">Command Line</div>
+					<div class="tools">
+						<span class="dev-tool">Python</span>
+						<span class="dev-tool">Ruby</span>
+						<span class="dev-tool">Graphviz</span>
+						<span class="dev-tool">Bash</span>
+						<span class="dev-tool">REST API</span>
+					</div>
+				</div>
+				<div class="section-list">
+					<div class="project-card">
+						<a href="https://github.com/mbwatson/canvas" target="_blank"><img src="resources/images/thumbnails/canvas.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://github.com/mbwatson/space_blaster" target="_blank"><img src="resources/images/thumbnails/spaceblaster.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://github.com/mbwatson/R-map-maker" target="_blank"><img src="resources/images/thumbnails/map.png" /></a>
+					</div>
+					<div class="project-card">
+						<img src="resources/images/thumbnails/b_3.png" />
+					</div>
+					<div class="project-card">
+						<img src="resources/images/thumbnails/eeeddedd.png" />
+					</div>
+					<div class="project-card">
+						<img src="resources/images/thumbnails/goldbach.png" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="projects-section">
+				<div class="section-aside">
+					<div class="section-name">Hardware</div>
+					<div class="tools">
+						<span class="dev-tool">Arduino</span>
+						<span class="dev-tool">ESP8266</span>
+						<span class="dev-tool">MicroPython</span>
+						<span class="dev-tool">Raspberry Pi</span>
+						<span class="dev-tool">Python</span>
+					</div>
+				</div>
+				<div class="section-list">
+					<div class="project-card">
+						<a href="https://www.hackster.io/mwatson/pi-game-6cb2b4" target="_blank"><img src="resources/images/thumbnails/esp8266pigame.png" /></a>
+					</div>
+					<div class="project-card">
+						<a href="https://www.hackster.io/mwatson/world-s-smallest-pong-a45ea9" target="_blank"><img src="resources/images/thumbnails/esp8266pong.png" /></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="projects-section">
+				<div class="section-aside">
+					<div class="section-name">Print</div>
+					<div class="tools">
+						<span class="dev-tool">GIMP</span>
+						<span class="dev-tool">Inkscape</span>
+						<span class="dev-tool">Adobe Creative Suite</span>
+						<span class="dev-tool">Pen</span>
+						<span class="dev-tool">Paper</span>
+					</div>
+				</div>
+				<div class="section-list">
+					<div class="project-card drawer-trigger" data-drawer="brains2">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/brains2.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="shards_lp">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/shards_lp.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="brains_saddleup">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/brains_saddleup.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="shards_tape2">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/shards_tape2.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="shards_demo">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/shards_demo.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="streetsharks_sharkattack">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/streetsharks_sharkattack.png" /></a>
+					</div>
+					<div class="project-card drawer-trigger" data-drawer="streetsharks_holymountain">
+						<a href="https://github.com/mbwatson/graphicDesign" target="_blank"><img src="resources/images/thumbnails/streetsharks_holymountain.png" />
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</main>
+	<div id="rightPanel">
+		<div id="drawer">drawer</div>
 	</div>
-	<div class="description">
-		<i>Mathematics instructor by day, programmer by night</i>
-		<span id="details-toggler" class="down-arrow">
-			<span id="details-read" class="read-more"></span>
-		</span>
-		
-		<div id="details">
-			Much of my spare time is occupied by programming and design.
-			Though my experiences run the gamit of the full stack,
-			I find myself getting lost in web development and UX design.
-			This page serves as a launchpad to some of my more recent projects,
-			and some notable past projects.
-			Recently, I've been wasting time playing around with <a href="http://www.p5js.org/" target="_blank">p5.js</a> while thinking of using it as a platform for teaching computer science.
-			<br /><br />
-			Please see some of my projects below.
-			Some are practical, some are to learn something new, and some are just for fun.
-			I am in the process of finding appropriate ways to make the non-linked projects accessible,
-			particularly the print projects, which includes everything from posters to record covers.
-<!-- 			<br/><br/>
-			View my <a href="resume.html" target="_blank">resume</a>.
- -->		</div>
-	</div>
-	<div class="projects-title">Projects</div>
-	<div class="projects-all">
-		<div class="projects-section">
-			<div class="section-aside">
-				<div class="section-name">Web</div>
-				<div class="tools">
-					<span class="dev-tool">HTML</span>
-					<span class="dev-tool">CSS (SASS &amp; LESS)</span>
-					<span class="dev-tool">JavaScript</span>
-					<span class="dev-tool">jQuery</span>
-					<span class="dev-tool">jQuery-UI</span>
-					<span class="dev-tool">p5.js</span>
-					<span class="dev-tool">PHP</span>
-					<span class="dev-tool">Laravel</span>
-					<span class="dev-tool">MySQL</span>
-				</div>
-			</div>
-			<div class="section-list">
-				<div class="project-card">
-					<a href="http://mbwatson.github.io/jsTimer" target="_blank"><img src="resources/images/thumbnails/timer.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://mbwatson.github.io/lista" target="_blank"><img src="resources/images/thumbnails/lista.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://mbwatson.github.io/jsClock" target="_blank"><img src="resources/images/thumbnails/clock.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://mbwatson.github.io/colorSchemeBuilder" target="_blank"><img src="resources/images/thumbnails/colors.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://fourum.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/fourum.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://mbwatson.github.io/keycodes" target="_blank"><img src="resources/images/thumbnails/keycodes.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://apcalc.herokuapp.com" target="_blank"><img src="resources/images/thumbnails/apcalc.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="http://www.bettiehair.com/" target="_blank"><img src="resources/images/thumbnails/bettie.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://github.com/mbwatson/php-captcha" target="_blank"><img src="resources/images/thumbnails/captcha.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/spacejs" target="_blank"><img src="resources/images/thumbnails/space.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/topongogy" target="_blank"><img src="resources/images/thumbnails/topongogy.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/life/hexlife/index.html" target="_blank"><img src="resources/images/thumbnails/hexlife.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/life/conways/index.html" target="_blank"><img src="resources/images/thumbnails/life.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/minesweeper" target="_blank"><img src="resources/images/thumbnails/minesweeper.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://mbwatson.github.io/nibbles" target="_blank"><img src="resources/images/thumbnails/nibbles.png" /></a>
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/growanddrop.png" />
-				</div>
-			</div>
-		</div>
-		
-		<div class="projects-section">
-			<div class="section-aside">
-				<div class="section-name">Command Line</div>
-				<div class="tools">
-					<span class="dev-tool">Python</span>
-					<span class="dev-tool">Ruby</span>
-					<span class="dev-tool">Graphviz</span>
-					<span class="dev-tool">Bash</span>
-					<span class="dev-tool">REST API</span>
-				</div>
-			</div>
-			<div class="section-list">
-				<div class="project-card">
-					<a href="https://github.com/mbwatson/canvas" target="_blank"><img src="resources/images/thumbnails/canvas.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://github.com/mbwatson/space_blaster" target="_blank"><img src="resources/images/thumbnails/spaceblaster.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://github.com/mbwatson/R-map-maker" target="_blank"><img src="resources/images/thumbnails/map.png" /></a>
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/b_3.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/eeeddedd.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/goldbach.png" />
-				</div>
-			</div>
-		</div>
-		
-		<div class="projects-section">
-			<div class="section-aside">
-				<div class="section-name">Hardware</div>
-				<div class="tools">
-					<span class="dev-tool">Arduino</span>
-					<span class="dev-tool">ESP8266</span>
-					<span class="dev-tool">MicroPython</span>
-					<span class="dev-tool">Raspberry Pi</span>
-					<span class="dev-tool">Python</span>
-				</div>
-			</div>
-			<div class="section-list">
-				<div class="project-card">
-					<a href="https://www.hackster.io/mwatson/pi-game-6cb2b4" target="_blank"><img src="resources/images/thumbnails/esp8266pigame.png" /></a>
-				</div>
-				<div class="project-card">
-					<a href="https://www.hackster.io/mwatson/world-s-smallest-pong-a45ea9" target="_blank"><img src="resources/images/thumbnails/esp8266pong.png" /></a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="projects-section">
-			<div class="section-aside">
-				<div class="section-name">Print</div>
-				<div class="tools">
-					<span class="dev-tool">GIMP</span>
-					<span class="dev-tool">Inkscape</span>
-					<span class="dev-tool">Adobe Creative Suite</span>
-					<span class="dev-tool">Pen</span>
-					<span class="dev-tool">Paper</span>
-				</div>
-			</div>
-			<div class="section-list">
-				<div class="project-card">
-					<img src="resources/images/thumbnails/brains2.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/shards_lp.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/brains_saddleup.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/shards_tape2.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/shards_demo.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/streetsharks_sharkattack.png" />
-				</div>
-				<div class="project-card">
-					<img src="resources/images/thumbnails/streetsharks_holymountain.png"/>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+</div>
+
+<div class="drawer-content" id="brains2">
+	<img src="resources/images/brains2.jpg" />
+	<img src="resources/images/brains2_open_front.jpg" />
+	<img src="resources/images/brains2_back.jpg" />
+	<img src="resources/images/brains2_open_back.jpg" />
+</div>
+
+<div class="drawer-content" id="shards_lp">
+	<img src="resources/images/shards_lp.jpg" />
+	<img src="resources/images/shards_lp_open_inside.jpg" />
+	<img src="resources/images/shards_lp_open_outside.jpg" />
+</div>
+
+<div class="drawer-content" id="brains_saddleup">
+	<img src="resources/images/brains_saddleup.jpg"></img>
+	<img src="resources/images/brains_saddleup_back.jpeg"></img>
+	<img src="resources/images/brains_saddleup_a.jpeg"></img>
+	<img src="resources/images/brains_saddleup_b.jpeg"></img>
+</div>
+
+<div class="drawer-content" id="shards_tape2">
+	<img src="resources/images/shards_tape2_front.png"></img>
+	<img src="resources/images/shards_tape2_open.png"></img>
+</div>
+
+<div class="drawer-content" id="shards_demo">
+	<img src="resources/images/shards_demo_front.png"></img>
+	<img src="resources/images/shards_demo_open.png"></img>
+</div>
+
+<div class="drawer-content" id="streetsharks_sharkattack">
+	<img src="resources/images/streetsharks_sharkattack.jpg"></img>
+</div>
+
+<div class="drawer-content" id="streetsharks_holymountain">
+	<img src="resources/images/streetsharks_holymountain.jpg"></img>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
 <script src="resources/js/toggleDetails.js"></script>
+<script src="resources/js/drawer.js"></script>
 
 </body>
 </html>
