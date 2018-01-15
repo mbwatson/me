@@ -1,0 +1,41 @@
+.no-scroll {
+  overflow: hidden;
+}
+.drawer-trigger {
+	cursor: pointer;
+}
+#rightPanel {
+	padding: 100px 0;
+	background-color: #eee;
+}
+#drawer {
+	visibility: hidden;
+	&.open {
+		visibility: visible;
+	}
+}
+@media (max-width: 960px) {
+	.overlay {
+		padding: 6em;
+	}
+}
+@media (max-width: 600px) {
+	.overlay {
+		padding: 3em 4em;
+	}
+}
+
+// .close-button {
+// 	display: none;
+// 	position: absolute;
+// 	right: 0;
+// 	top: 0;
+// 	font-size: 300%;
+// 	color: #fff;
+// 	padding-right: 0.5em;
+// 	cursor: pointer;
+// 	transition: color 250ms;
+// }
+// .close-button:hover {
+// 	color: #b44;
+// }
